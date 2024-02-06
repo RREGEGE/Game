@@ -9,8 +9,9 @@ class Player
 {
 public:
 	void Make_stone();
+	void Throw_yut(Yut&);
 public:
-	vector<Stone*> life;
-
+	vector<Stone*> life[3]{};
+	Yut one;
 };
 
