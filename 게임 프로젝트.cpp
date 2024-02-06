@@ -1,11 +1,28 @@
-﻿// 게임 프로젝트.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
-
-#include <iostream>
+﻿#include <iostream>
+#include "Yut.h"
+using namespace std;;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	//Yut a;
+	//while (true) {
+	//	int num;
+	//	cout << "번호 입력";
+	//	cin >> num;
+	//	if (num == 0) {
+	//		break;
+	//	}
+	//	else if (num == 1) {
+	//		a.Throw();
+	//		cout << endl;
+	//		a.Result();
+	//		cout << endl;
+	//	}
+	//	else {
+	//		break;
+	//	}
+	//}
+	
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
