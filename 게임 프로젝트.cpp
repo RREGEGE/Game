@@ -1,37 +1,35 @@
-﻿#include <iostream>
+﻿#pragma once
+#include"setting.h"
+#include"n_page.h"
+#include<windows.h>
+#include <iostream>
 #include "Yut.h"
 using namespace std;;
 
 int main()
 {
-	//Yut a;
-	//while (true) {
-	//	int num;
-	//	cout << "번호 입력";
-	//	cin >> num;
-	//	if (num == 0) {
-	//		break;
-	//	}
-	//	else if (num == 1) {
-	//		a.Throw();
-	//		cout << endl;
-	//		a.Result();
-	//		cout << endl;
-	//	}
-	//	else {
-	//		break;
-	//	}
-	//}
-	
+	set_console();//콘솔 창 세팅
+	while (1)
+	{
+		title_draw();//윷놀이 크게 띄우기 위함
+		int temp = menu_draw();//1.2.3 선택지
+		switch (temp)
+		{
+		case 1:
+			game_start();//게임 시작
+			break;
+		case 2:
+			game_info();//게임 정보
+			break;
+		case 0:
+			game_exit();//게임 종료
+			break;
+		default:
+			break;
+		}
+		system("cls");
+		if (temp == 0) break;
+	}
+
+	return 0;
 }
-
-// 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
-// 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
-
-// 시작을 위한 팁: 
-//   1. [솔루션 탐색기] 창을 사용하여 파일을 추가/관리합니다.
-//   2. [팀 탐색기] 창을 사용하여 소스 제어에 연결합니다.
-//   3. [출력] 창을 사용하여 빌드 출력 및 기타 메시지를 확인합니다.
-//   4. [오류 목록] 창을 사용하여 오류를 봅니다.
-//   5. [프로젝트] > [새 항목 추가]로 이동하여 새 코드 파일을 만들거나, [프로젝트] > [기존 항목 추가]로 이동하여 기존 코드 파일을 프로젝트에 추가합니다.
-//   6. 나중에 이 프로젝트를 다시 열려면 [파일] > [열기] > [프로젝트]로 이동하고 .sln 파일을 선택합니다.

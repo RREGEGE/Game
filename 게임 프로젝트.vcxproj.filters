@@ -27,6 +27,12 @@
     <ClCompile Include="Player.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="setting.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="n_page.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Yut.h">
@@ -36,6 +42,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="n_page.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

@@ -4,8 +4,8 @@ class Stone:public Yut
 {
 public:
 	int Move();
-	int Together();
-	int Eat();
+	void Together();
+	void Eat();
 public:
 	int local = 0;
 	int turn;

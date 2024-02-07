@@ -127,21 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Player.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="n_page.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="setting.cpp" />
     <ClCompile Include="Stone.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="게임 프로젝트.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Yut.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="게임 프로젝트.cpp" />
+    <ClCompile Include="Yut.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="n_page.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="setting.h" />
     <ClInclude Include="Stone.h" />
     <ClInclude Include="Yut.h" />
   </ItemGroup>

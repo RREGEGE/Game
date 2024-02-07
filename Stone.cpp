@@ -8,6 +8,6 @@ int Stone::Move() {
 	return local;
 }
 
-int Stone::Together() {
-	if 
+void Stone::Together() {
+	
 }
