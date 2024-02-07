@@ -1,1 +1,2 @@
 C:\Users\test\git\githubtest_web\project_game\Game\x64\Debug\Project1.exe
+C:\git\C\게임 프로젝트\x64\Debug\Project1.exe

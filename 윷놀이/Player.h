@@ -12,10 +12,12 @@ public:
 	~Player();
 	void Make_stone(Stone* stone);
 	void Together();
-	void Eat(Player* opponent);
+	int Eat(Player* opponent);
+	void Location_share(int num);
 public:
 	vector<Stone*> life;
 	string _name;
-	
+	vector<bool> isTogether;
+	int check;
 };
 

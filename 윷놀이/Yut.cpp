@@ -26,29 +26,42 @@ void Yut::Throw() {
 
 int Yut::Result() {
 	if (sum == 0) {
-		cout << "¸ð"<<endl;
 		result = 5;
 		return result;
 	}
 	else if (sum == 1) {
-		cout << "µµ" << endl;
 		result = 1;
 		return result;
 	}
 	else if (sum == 2) {
-		cout << "°³" << endl;
 		result = 2;
 		return result;
 	}
 	else if (sum == 3) {
-		cout << "°É" << endl;
 		result = 3;
 		return result;
 	}
 	else {
-		cout << "À·" << endl;
 		result = 4;
 		return result;
 	}
 	return 0;
+}
+
+void Yut::Speak() {
+	if (sum == 0) {
+		cout << "¸ð" << endl;	
+	}
+	else if (sum == 1) {
+		cout << "µµ" << endl;	
+	}
+	else if (sum == 2) {
+		cout << "°³" << endl;
+	}
+	else if (sum == 3) {
+		cout << "°É" << endl;	
+	}
+	else {
+		cout << "À·" << endl;
+	}
 }

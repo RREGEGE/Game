@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< HEAD:게임 프로젝트.vcxproj.filters
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -53,6 +54,8 @@
     </ClInclude>
   </ItemGroup>
 =======
+=======
+>>>>>>> 21181545d835111df12eec44c62b14e13d2092d3
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
@@ -82,6 +85,12 @@
     <ClCompile Include="Player.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+<<<<<<< HEAD
+=======
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+>>>>>>> 21181545d835111df12eec44c62b14e13d2092d3
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stone.h">
@@ -94,5 +103,8 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
+<<<<<<< HEAD
 >>>>>>> 0c59a0c46f4ae61cead99c37ea218f43f640c583:윷놀이/윷놀이.vcxproj.filters
+=======
+>>>>>>> 21181545d835111df12eec44c62b14e13d2092d3
 </Project>

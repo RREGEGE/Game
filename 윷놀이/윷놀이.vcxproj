@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< HEAD:게임 프로젝트.vcxproj
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -148,6 +149,8 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
 =======
+=======
+>>>>>>> 21181545d835111df12eec44c62b14e13d2092d3
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
@@ -280,7 +283,14 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Stone.cpp" />
     <ClCompile Include="Yut.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="윷놀이.cpp" />
+=======
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="윷놀이.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+>>>>>>> 21181545d835111df12eec44c62b14e13d2092d3
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h" />
@@ -290,5 +300,8 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+<<<<<<< HEAD
 >>>>>>> 0c59a0c46f4ae61cead99c37ea218f43f640c583:윷놀이/윷놀이.vcxproj
+=======
+>>>>>>> 21181545d835111df12eec44c62b14e13d2092d3
 </Project>
