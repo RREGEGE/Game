@@ -4,7 +4,6 @@
 #include<cstdlib>
 #include<windows.h>
 #include <conio.h>
-#include"setting.h"
 
 int board[11][11];
 
